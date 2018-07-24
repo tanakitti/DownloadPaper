@@ -11,7 +11,7 @@ import org.apache.commons.io.FileUtils;
 public class downloadFile {
 
 	public static void main(String[] args) {
-		dowload("/Users/bank21235/Documents/testcase/output/ccid_paperid.csv","/Users/bank21235/Documents/papers",0,2);
+		dowload("./ID&PaperID.AUX","./output",0,-1);
 	}
 	public static void dowload(String pathOfInputFile,String pathOfOutdir,int startPosition,int stopPosition) {
 		String[] files = loadList(pathOfInputFile);
